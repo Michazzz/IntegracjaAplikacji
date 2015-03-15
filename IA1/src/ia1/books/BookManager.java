@@ -41,7 +41,7 @@ public class BookManager {
     }
     
     public Book searchByISBN(String isbn){
-        Book findedBook = new Book();
+        Book findedBook = null;
         for(Book book : books){
             if(book.getAuthor().equalsIgnoreCase(isbn)){
                 findedBook = book;
