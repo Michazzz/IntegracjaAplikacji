@@ -30,6 +30,16 @@ public class BookManager {
         return findedBooks;
     }
     
+    public List<Book> searchByPublisher(String publisher){
+        List<Book> findedBooks = new ArrayList<>();
+        for(Book book : books){
+            if(book.getPublisher().contains(publisher)){
+                findedBooks.add(book);
+            }
+        }
+        return findedBooks;
+    }
+    
     public Book searchByISBN(String isbn){
         Book findedBook = new Book();
         for(Book book : books){
