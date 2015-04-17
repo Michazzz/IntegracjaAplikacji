@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <person>
+        <name>Jan</name>
+        <lastname>Kowalski</lastname>
+        <birthday>01-01-2015</birthday>
+        <sex>Male</sex>
+        <age>0</age>
+        <pesel>15010101911</pesel>
+        <education>
+            <school>
+                <name>Schools 1</name>
+                <level>First</level>
+            </school>
+            <school>
+                <name>School 2</name>
+                <level>Second</level>
+            </school>
+            <school>
+                <name>School 3</name>
+                <level>Third</level>
+            </school>
+        </education>
+    </person>
+    <person>
+        <name>Jan</name>
+        <lastname>Nowak</lastname>
+        <birthday>01-01-2015</birthday>
+        <sex>Male</sex>
+        <age>0</age>
+        <pesel>15010101911</pesel>
+        <education>
+            <school>
+                <name>Schools 1</name>
+                <level>First</level>
+            </school>
+            <school>
+                <name>School 2</name>
+                <level>Second</level>
+            </school>
+            <school>
+                <name>School 3</name>
+                <level>Third</level>
+            </school>
+        </education>
+    </person>
+    <person>
+        <name>Stefan</name>
+        <lastname>Kowalski</lastname>
+        <birthday>01-01-2015</birthday>
+        <sex>Male</sex>
+        <age>0</age>
+        <pesel>15010101911</pesel>
+        <education>
+            <school>
+                <name>Schools 1</name>
+                <level>First</level>
+            </school>
+            <school>
+                <name>School 2</name>
+                <level>Second</level>
+            </school>
+            <school>
+                <name>School 3</name>
+                <level>Third</level>
+            </school>
+        </education>
+    </person>
+</persons>

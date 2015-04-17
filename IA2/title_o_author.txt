@@ -1,0 +1,21 @@
+<title>C#. Praktyczny kurs. Wydanie II</title>
+<title>AJAX i PHP. Ćwiczenia praktyczne</title>
+<title>C#. Ćwiczenia. Wydanie III</title>
+<title>JavaScript. Ćwiczenia praktyczne. Wydanie II</title>
+<title>Java. Ćwiczenia praktyczne. Wydanie III</title>
+<title>Joomla! 1.6. Ćwiczenia </title>
+<title>SQL. Ćwiczenia praktyczne. Wydanie II</title>
+<title>Java. Ćwiczenia zaawansowane. Wydanie II</title>
+<title>Dynamiczny HTML. 101 praktycznych skryptów</title>
+<title>Joomla! 1.6. Prosty przepis na własną stronę WWW</title>
+<title>Joomla! 1.5. Prosty przepis na własną stronę WWW</title>
+<title>PHP 5. Leksykon kieszonkowy</title>
+<title>Praktyczny kurs Java. Wydanie III</title>
+<title>Tablice informatyczne. AJAX</title>
+<title>Tablice informatyczne. Java. Wydanie II</title>
+<title>Tablice informatyczne. Java. Wydanie III</title>
+<title>Tablice informatyczne. Oracle</title>
+<title>Tablice informatyczne. PHP. Wydanie II</title>
+<title>Tablice informatyczne. PHP 5</title>
+<title>Tworzenie stron WWW. Praktyczny kurs</title>
+/books/book[contains(authors, 'Marcin Lis')]/title

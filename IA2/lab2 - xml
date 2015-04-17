@@ -1,0 +1,76 @@
+<title>100 sposobów na Ubuntu</title>
+<title>Ajax w akcji</title>
+<title>AJAX i PHP. Tworzenie interaktywnych aplikacji internetowych</title>
+<title>Ajax. Zaawansowane programowanie</title>
+<title>AJAX i PHP. Tworzenie interaktywnych aplikacji internetowych. Wydanie II</title>
+<title>Almanach fotografii. Wydanie X</title>
+<title>Android 3. Tworzenie aplikacji</title>
+<title>Android Flash. Zaawansowane programowanie aplikacji mobilnych</title>
+<title>Android 2. Tworzenie aplikacji</title>
+<title>Android w akcji. Wydanie II</title>
+<title>Analiza i projektowanie obiektowe. Rusz głową!</title>
+<title>Anti-Spam Tool Kit. Edycja polska</title>
+<title>Algorytmy numeryczne w Delphi. Księga eksperta</title>
+<title>Architektura oprogramowania w praktyce. Wydanie II</title>
+<title>Sztuka podstepu. Łamałem ludzi nie hasła. Wydanie II</title>
+<title>ASP.NET 3.5 z wykorzystaniem C# i VB. Zaawansowane programowanie</title>
+<title>ASP.NET 3.5. Programowanie</title>
+<title>ASP.NET 2.0 i Ajax. Wprowadzenie</title>
+<title>ASP.NET 2.0. Gotowe rozwiązania</title>
+<title>Bezpieczeństwo systemu e-commerce, czyli jak bez ryzyka prowadzić biznes w internecie</title>
+<title>C++ dla każdego. Wydanie II</title>
+<title>Język C#. Programowanie. Wydanie III. Microsoft .NET Development Series</title>
+<title>C#. Programowanie. Wydanie VI</title>
+<title>Programowanie w Linuksie. Ćwiczenia</title>
+<title>UML 2.x. Ćwiczenia zaawansowane</title>
+<title>Cyfrowa fotografia panoramiczna</title>
+<title>Eclipse Web Tools Platform. Tworzenie aplikacji WWW w języku Java</title>
+<title>Excel. Programowanie dla profesjonalistów. Wydanie II</title>
+<title>Microsoft Exchange Server 2007. Księga eksperta</title>
+<title>Adobe Flex 4. Oficjalny podręcznik</title>
+<title>Adobe Flex 3. Oficjalny podręcznik</title>
+<title>Skuteczne handlowanie. Jak budować współpracę z klientem i odważnie windykować należności. Zestaw multimedialny</title>
+<title>J2EE. Wzorce projektowe. Wydanie 2</title>
+<title>Java EE 6. Przewodnik. Wydanie IV</title>
+<title>jQuery 1.3. Wprowadzenie</title>
+<title>Core Java Servlets i JavaServer Pages. Tom II. Wydanie II</title>
+<title>Język UML 2.0 w modelowaniu systemów informatycznych</title>
+<title>Komponenty tworzące systemu Drupal. Szybkie budowanie witryn internetowych za pomocą modułów CCK, Views i Panels</title>
+<title>Kompozycja. Od zdjęcia do arcydzieła</title>
+<title>Produkty i marki w opinii e-konsumentów</title>
+<title>Marketing wirusowy w internecie</title>
+<title>Mistrz PHP. Pisz nowoczesny kod</title>
+<title>Mount Everest biznesu</title>
+<title>Objective-C. Podstawy</title>
+<title>MS Office 2003 PL w biznesie. Tom I i II</title>
+<title>MS Office XP/2003 PL w biurze i sekretariacie. Tom I i II</title>
+<title>OpenGL. Księga eksperta. Wydanie V</title>
+<title>OpenOffice 1.1.x UX.PL</title>
+<title>Oracle Database 11g. Przewodnik dla początkujących</title>
+<title>PHP 5 i MySQL. Zastosowania e-commerce</title>
+<title>Photoshop CS4/CS4 PL. Biblia</title>
+<title>PHP. Zaawansowane programowanie</title>
+<title>Programowanie aplikacji na iPhone 4. Poznaj platformę iOS SDK3 od podstaw</title>
+<title>Psychologia szefa. Zestaw multimedialny</title>
+<title>Refaktoryzacja. Ulepszanie struktury istniejącego kodu</title>
+<title>Rozbudowa i naprawa serwerów</title>
+<title>Ruby on Rails. Wprowadzenie. Wydanie II</title>
+<title>The Smashing Book #2. Edycja polska</title>
+<title>SQL Server 2005</title>
+<title>Systemy baz danych. Kompletny podręcznik. Wydanie II</title>
+<title>Tablice informatyczne. UML</title>
+<title>Tworzenie stron metodą stopniowego ulepszania. Witryny dostępne dla każdego</title>
+<title>Ubuntu. Oficjalny podręcznik. Wydanie V</title>
+<title>Unix i Linux. Przewodnik administratora systemów. Wydanie IV</title>
+<title>Visual Basic 2005. Almanach</title>
+<title>Visual C++. Gotowe rozwiązania dla programistów Windows</title>
+<title>Windows Server 2003. Bezpieczeństwo sieci</title>
+<title>Windows Server 2003. Księga eksperta</title>
+<title>Windows Server 2008 PL. Księga eksperta </title>
+<title>Wtyczki do WordPress. Programowanie dla profesjonalistów</title>
+<title>Wzorce projektowe. Elementy oprogramowania obiektowego wielokrotnego użytku</title>
+<title>Wzorce projektowe. Rusz głową!</title>
+<title>13 najpopularniejszych sieciowych ataków na Twój komputer. Wykrywanie, usuwanie skutków i zapobieganie</title>
+<title>Profesjonalne zarządzanie barwą. Wydanie II</title>
+<title>Zen Stevea Jobsa</title>
+/books/book[count(authors/author) > 2]/title

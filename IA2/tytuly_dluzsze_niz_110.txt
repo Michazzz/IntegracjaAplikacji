@@ -1,0 +1,12 @@
+<title>ASP.NET AJAX Server Controls. Zaawansowane programowanie w nurcie .NET Framework 3.5. Microsoft .NET Development Series</title>
+<title>Era Facebooka. Wykorzystaj sieci społecznościowe do promocji, sprzedaży i komunikacji z Twoimi klientami. Wydanie II</title>
+<title>Zdjęcia cyfrowe w oświetleniu zastanym. Fascynując historia od Available Light do HDR. Poradnik dla fotoamatorów</title>
+<title>Microsoft XNA Game Studio 4.0. Projektuj i buduj własne gry dla konsoli Xbox 360, urządzeń z systemem Windows Phone 7 i własnego PC</title>
+<title>Grafika w biznesie. Projektowanie elementów tożsamości wizualnej - logotypy, wizytówki oraz papier firmowy. Wydanie II</title>
+<title>Skuteczne handlowanie. Jak budować współpracę z klientem i odważnie windykować należności. Zestaw multimedialny</title>
+<title>Komponenty tworzące systemu Drupal. Szybkie budowanie witryn internetowych za pomocą modułów CCK, Views i Panels</title>
+<title>Beyond Bullet Points. Magia ukryta w Microsoft PowerPoint. Oczaruj słuchaczy i porwij ich do działania. Wydanie III</title>
+<title>Społecznościowy BOOM. Wykorzystaj potencjał sieci e-kontaktów do wykreowania marki, zwiększenia sprzedaży i zdominowania rynku </title>
+<title>UML i wzorce projektowe. Analiza i projektowanie obiektowe oraz iteracyjny model wytwarzania aplikacji. Wydanie III</title>
+<title>Zend Framework od podstaw. Wykorzystaj gotowe rozwiązania PHP do tworzenia zaawansowanych aplikacji internetowych</title>
+/books/book[string-length(title)>110]/title

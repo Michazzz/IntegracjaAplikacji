@@ -1,0 +1,22 @@
+<title>AJAX i PHP. Tworzenie interaktywnych aplikacji internetowych. Wydanie II</title>
+<title>PHP, MySQL i MVC. Tworzenie witryn WWW opartych na bazie danych</title>
+<title>CakePHP 1.3. Programowanie aplikacji. Receptury</title>
+<title>E-commerce. Genialnie proste tworzenie serwisów w PHP i MySQL</title>
+<title>Adobe Flash i PHP. Biblia</title>
+<title>Flash i PHP. Tworzenie systemu e-commerce</title>
+<title>Head First PHP &amp; MySQL. Edycja polska (Rusz głową!)</title>
+<title>Mistrz PHP. Pisz nowoczesny kod</title>
+<title>Oracle Database. Tworzenie aplikacji internetowych w AJAX i PHP</title>
+<title>PHP 5. Leksykon kieszonkowy</title>
+<title>PHP i jQuery. Receptury</title>
+<title>PHP i MySQL. Od podstaw. Wydanie IV </title>
+<title>PHP i MySQL. Witryna WWW oparta na bazie danych. Wydanie IV</title>
+<title>PHP 5. Narzędzia dla ekspertów</title>
+<title>PHP. Obiekty, wzorce, narzędzia. Wydanie III </title>
+<title>PHP. Zaawansowane programowanie</title>
+<title>PHP i HTML. Tworzenie dynamicznych stron WWW</title>
+<title>PHP i HTML. Tworzenie dynamicznych stron WWW</title>
+<title>Projektowanie systemów CMS przy użyciu PHP i jQuery</title>
+<title>Tablice informatyczne. PHP 5</title>
+<title>Zend Framework od podstaw. Wykorzystaj gotowe rozwiązania PHP do tworzenia zaawansowanych aplikacji internetowych</title>
+/books/book[contains(title, 'PHP') and year>2009]/title

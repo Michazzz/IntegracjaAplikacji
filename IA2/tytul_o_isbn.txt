@@ -1,0 +1,2 @@
+<title>Java. Ćwiczenia praktyczne. Wydanie III</title>
+/books/book[isbn='978-83-246-2785-1']/title
