@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <person>
+        <name>Jan</name>
+        <lastname>Kowalski</lastname>
+        <birthday>01-01-2015</birthday>
+        <sex>Male</sex>
+        <age>0</age>
+        <pesel>15010101911</pesel>
+        <education>
+            <school>School1</school>
+            <school>School2</school>
+            <school>School3</school>
+            <school>School4</school>
+        </education>
+    </person>
+    <person>
+        <name>Jan</name>
+        <lastname>Nowak</lastname>
+        <birthday>01-01-2015</birthday>
+        <sex>Male</sex>
+        <age>0</age>
+        <pesel>15010101911</pesel>
+        <education>
+            <school>School1</school>
+            <school>School2</school>
+            <school>School3</school>
+            <school>School4</school>
+        </education>
+    </person>
+    <person>
+        <name>Stefan</name>
+        <lastname>Kowalski</lastname>
+        <birthday>01-01-2015</birthday>
+        <sex>Male</sex>
+        <age>0</age>
+        <pesel>15010101911</pesel>
+        <education>
+            <school>School1</school>
+            <school>School2</school>
+            <school>School3</school>
+            <school>School4</school>
+        </education>
+    </person>
+</persons>
