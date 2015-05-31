@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://persons.ia5_2/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="PersonManagerService" targetNamespace="http://persons.ia5_2/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:666/persons?xsd=1" namespace="http://persons.ia5_2/" />
+    </xsd:schema>
+  </types>
+  <message name="searchByLastname">
+    <part name="parameters" element="tns:searchByLastname" />
+  </message>
+  <message name="searchByLastnameResponse">
+    <part name="parameters" element="tns:searchByLastnameResponse" />
+  </message>
+  <message name="FailedLoginException">
+    <part name="fault" element="tns:FailedLoginException" />
+  </message>
+  <message name="searchByPesel">
+    <part name="parameters" element="tns:searchByPesel" />
+  </message>
+  <message name="searchByPeselResponse">
+    <part name="parameters" element="tns:searchByPeselResponse" />
+  </message>
+  <message name="loginRequest">
+    <part name="parameters" element="tns:loginRequest" />
+  </message>
+  <message name="loginRequestResponse">
+    <part name="parameters" element="tns:loginRequestResponse" />
+  </message>
+  <message name="logout">
+    <part name="parameters" element="tns:logout" />
+  </message>
+  <message name="logoutResponse">
+    <part name="parameters" element="tns:logoutResponse" />
+  </message>
+  <message name="searchByName">
+    <part name="parameters" element="tns:searchByName" />
+  </message>
+  <message name="searchByNameResponse">
+    <part name="parameters" element="tns:searchByNameResponse" />
+  </message>
+  <portType name="PersonManager">
+    <operation name="searchByLastname">
+      <input wsam:Action="http://persons.ia5_2/PersonManager/searchByLastnameRequest" message="tns:searchByLastname" />
+      <output wsam:Action="http://persons.ia5_2/PersonManager/searchByLastnameResponse" message="tns:searchByLastnameResponse" />
+      <fault wsam:Action="http://persons.ia5_2/PersonManager/searchByLastname/Fault/FailedLoginException" name="FailedLoginException" message="tns:FailedLoginException" />
+    </operation>
+    <operation name="searchByPesel">
+      <input wsam:Action="http://persons.ia5_2/PersonManager/searchByPeselRequest" message="tns:searchByPesel" />
+      <output wsam:Action="http://persons.ia5_2/PersonManager/searchByPeselResponse" message="tns:searchByPeselResponse" />
+      <fault wsam:Action="http://persons.ia5_2/PersonManager/searchByPesel/Fault/FailedLoginException" name="FailedLoginException" message="tns:FailedLoginException" />
+    </operation>
+    <operation name="loginRequest">
+      <input wsam:Action="http://persons.ia5_2/PersonManager/loginRequestRequest" message="tns:loginRequest" />
+      <output wsam:Action="http://persons.ia5_2/PersonManager/loginRequestResponse" message="tns:loginRequestResponse" />
+    </operation>
+    <operation name="logout">
+      <input wsam:Action="http://persons.ia5_2/PersonManager/logoutRequest" message="tns:logout" />
+      <output wsam:Action="http://persons.ia5_2/PersonManager/logoutResponse" message="tns:logoutResponse" />
+      <fault wsam:Action="http://persons.ia5_2/PersonManager/logout/Fault/FailedLoginException" name="FailedLoginException" message="tns:FailedLoginException" />
+    </operation>
+    <operation name="searchByName">
+      <input wsam:Action="http://persons.ia5_2/PersonManager/searchByNameRequest" message="tns:searchByName" />
+      <output wsam:Action="http://persons.ia5_2/PersonManager/searchByNameResponse" message="tns:searchByNameResponse" />
+      <fault wsam:Action="http://persons.ia5_2/PersonManager/searchByName/Fault/FailedLoginException" name="FailedLoginException" message="tns:FailedLoginException" />
+    </operation>
+  </portType>
+  <binding name="PersonManagerPortBinding" type="tns:PersonManager">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="searchByLastname">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="FailedLoginException">
+        <soap:fault use="literal" name="FailedLoginException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="searchByPesel">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="FailedLoginException">
+        <soap:fault use="literal" name="FailedLoginException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="loginRequest">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="logout">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="FailedLoginException">
+        <soap:fault use="literal" name="FailedLoginException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="searchByName">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="FailedLoginException">
+        <soap:fault use="literal" name="FailedLoginException" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="PersonManagerService">
+    <port name="PersonManagerPort" binding="tns:PersonManagerPortBinding">
+      <soap:address location="http://localhost:666/persons" />
+    </port>
+  </service>
+</definitions>

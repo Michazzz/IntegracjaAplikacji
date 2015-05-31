@@ -1,0 +1,9 @@
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\obj\Debug\PersonsClient.PersonsForm.resources
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\obj\Debug\PersonsClient.Properties.Resources.resources
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\obj\Debug\PersonsClient.csproj.GenerateResource.Cache
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\bin\Debug\PersonsClient.exe.config
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\bin\Debug\PersonsClient.exe
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\bin\Debug\PersonsClient.pdb
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\obj\Debug\PersonsClient.exe
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\obj\Debug\PersonsClient.pdb
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\PersonsClient\obj\Debug\PersonsClient.AddBook.resources

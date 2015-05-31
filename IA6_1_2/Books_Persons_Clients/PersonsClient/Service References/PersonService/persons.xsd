@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://persons.ia5_2/" targetNamespace="http://persons.ia5_2/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FailedLoginException" type="tns:FailedLoginException" />
+  <xs:element name="loginRequest" type="tns:loginRequest" />
+  <xs:element name="loginRequestResponse" type="tns:loginRequestResponse" />
+  <xs:element name="logout" type="tns:logout" />
+  <xs:element name="logoutResponse" type="tns:logoutResponse" />
+  <xs:element name="searchByLastname" type="tns:searchByLastname" />
+  <xs:element name="searchByLastnameResponse" type="tns:searchByLastnameResponse" />
+  <xs:element name="searchByName" type="tns:searchByName" />
+  <xs:element name="searchByNameResponse" type="tns:searchByNameResponse" />
+  <xs:element name="searchByPesel" type="tns:searchByPesel" />
+  <xs:element name="searchByPeselResponse" type="tns:searchByPeselResponse" />
+  <xs:complexType name="searchByPesel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="pesel" type="xs:string" />
+      <xs:element minOccurs="0" name="token" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByPeselResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="person" type="tns:person" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="person">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="age" type="xs:int" />
+      <xs:element minOccurs="0" name="birthday" type="xs:string" />
+      <xs:element minOccurs="0" name="education">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="school" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="lastname" type="xs:string" />
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="pesel" type="xs:string" />
+      <xs:element minOccurs="0" name="sex" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="FailedLoginException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="loginRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+      <xs:element minOccurs="0" name="password" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="loginRequestResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="sessionid" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByLastname">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="lastname" type="xs:string" />
+      <xs:element minOccurs="0" name="token" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByLastnameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="person" type="tns:person" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="logout">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="token" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="logoutResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="logoutRequest" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByName">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="name" type="xs:string" />
+      <xs:element minOccurs="0" name="token" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchByNameResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="person" type="tns:person" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

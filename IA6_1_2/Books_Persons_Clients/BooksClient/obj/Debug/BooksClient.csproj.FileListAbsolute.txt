@@ -1,0 +1,10 @@
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\bin\Debug\BooksClient.exe.config
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\bin\Debug\BooksClient.exe
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\bin\Debug\BooksClient.pdb
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\obj\Debug\BooksClient.csprojResolveAssemblyReference.cache
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\obj\Debug\BooksClient.Properties.Resources.resources
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\obj\Debug\BooksClient.csproj.GenerateResource.Cache
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\obj\Debug\BooksClient.exe
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\obj\Debug\BooksClient.pdb
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\obj\Debug\BooksClient.AddBook.resources
+C:\Users\Michazzz\Documents\Visual Studio 2012\Projects\ProgramowanieKomponentowe\BooksClient\BooksClient\obj\Debug\BooksClient.BooksForm.resources
